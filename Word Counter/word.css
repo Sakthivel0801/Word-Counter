@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: centre;
+    align-items: center;
+}
+#h1{
+    text-align: center;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding: 15px;
+}
+.input textarea{
+    width: 300px;
+    height: 300px;
+}
+.button button{
+    background-color: red;
+    font-size: 15px;
+    border-radius: 7px;
+}
+#output{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+}
